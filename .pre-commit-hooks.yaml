@@ -1,8 +1,8 @@
 ---
-#  - id: lint-staged
-  #  name: lint-staged
-  #  description: Run pre-commit runner with lint-staged
-  #  entry: "$(npm bin)/lint-staged"
-  #  language: system
-  #  args: ["--"]
-  #  pass_filenames: false
+ - id: lint-staged
+   name: lint-staged
+   description: Run pre-commit runner with lint-staged
+   entry: "$(npm bin)/lint-staged"
+   language: system
+   args: ["--"]
+   pass_filenames: false
